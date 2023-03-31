@@ -1,7 +1,9 @@
+import os
 import sys
 import fastkml
 import gpxpy.gpx
 import pygeoif
+from pandas import *
 from tkinter.filedialog import askopenfilename
 
 
@@ -56,7 +58,7 @@ def parse_place_marks(element, mapping, gpx_obj, route_name):
             parse_place_marks(feature, mapping, gpx_obj, route_name)
 
 
-def get_style_relations(styles_list):
+def get_style_relations(styles_list, icon_name_dict):
     maps = []
     styles = []
     mapping = {}
@@ -68,13 +70,35 @@ def get_style_relations(styles_list):
     for map_obj in maps:
         for sty in styles:
             if map_obj.normal.url.endswith(sty.id) and sty._styles[0].icon_href is not None:
-                mapping[map_obj.id] = ''.join(sty._styles[0].icon_href.partition('CUSTOM')[1:]).removesuffix('.png')
+                mapping[map_obj.id] = icon_name_dict.get(os.path.basename(sty._styles[0].icon_href)[:-4], None)
     return mapping
 
 
+def create_icon_dict(xlsx_file):
+    xls = ExcelFile(xlsx_file)
+    df = xls.parse(xls.sheet_names[0])
+    df = df.dropna(axis=1, how='all').dropna().reset_index(drop=True)
+    return dict(zip(df['Earth Name'], df['Garmin Name']))
+
+
 if __name__ == '__main__':
+
     # Input KML file
-    kml_file = askopenfilename()
+    xlsx_file = askopenfilename(title='Open EXCEL file', filetypes=(
+        ('EXCEL files', '*.xlsx'),
+        ('All files', '*.*')
+    ))
+    if not xlsx_file.endswith('.xlsx'):
+        sys.exit("No .xlsx selected")
+
+    # Create icon_name_dict
+    icon_name_dict = create_icon_dict(xlsx_file)
+
+    # Input KML file
+    kml_file = askopenfilename(title='Open KML file', filetypes=(
+        ('KML files', '*.kml'),
+        ('All files', '*.*')
+    ))
     if not kml_file.endswith('.kml'):
         sys.exit("No .kml selected")
 
@@ -85,9 +109,10 @@ if __name__ == '__main__':
     # Create KML object
     k = fastkml.kml.KML()
     k.from_string(doc)
-    
+
+
     # Create dictionary to relate Styles of icons with the real icon Names
-    style_map = get_style_relations(list(list(k.features())[0].styles()))
+    style_map = get_style_relations(list(list(k.features())[0].styles()), icon_name_dict)
     
     # Create a new GPX file
     gpx = gpxpy.gpx.GPX()
@@ -100,3 +125,9 @@ if __name__ == '__main__':
     f = open(gpx_file, 'wb')
     f.write(gpx.to_xml().encode('utf8'))
     f.close()
+    """
+    1. Open a Command Prompt
+    2. Activate venv
+    3. Run auto-py-to-exe
+    4. Follow instructions
+    """

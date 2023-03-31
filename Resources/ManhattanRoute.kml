@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ManhattanRoute.kml</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_camera">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_camera</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_camera</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_marina">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_marina</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_marina</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parks">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_subway">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subway</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subway</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_volcano">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_volcano</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_volcano</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>C:/Users/oyaga/Escritorio/Rutas Cesar/Iconos/PNG2/CUSTOM 15.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>C:/Users/oyaga/Escritorio/Rutas Cesar/Iconos/PNG2/CUSTOM 15.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_camera">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_marina">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_parks">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_subway">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/subway.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_volcano">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_camera">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_marina">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/marina.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_parks">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_subway">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/subway.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_volcano">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/volcano.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>ManhattanRoute</name>
+		<open>1</open>
+		<Placemark>
+			<name>ManhattanRoute</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-74.01516562749335,40.70098495667983,0 -74.01503795903184,40.70110470166215,0 -74.01481282012163,40.70139017210571,0 -74.01467265185707,40.70134716527954,0 -74.01447863616421,40.70127095617271,0 -74.01432631119542,40.70122212887446,0 -74.01408268400134,40.70116901269334,0 -74.01365684735772,40.70112606372387,0 -74.01250498203152,40.70129825032716,0 -74.01146670151152,40.70153802445315,0 -74.01069872648893,40.70170310171605,0 -74.00948173493748,40.70206111293202,0 -73.99973663392237,40.7078365289301,0 -73.99784255203052,40.70869131191923,0 -73.99217169876445,40.70966297514052,0 -73.98408383878063,40.71061582420631,0 -73.97996921126381,40.71097209229622,0 -73.97861241902089,40.71149693506462,0 -73.97679367941183,40.71397731926331,0 -73.97564084078603,40.71629051937696,0 -73.97468712451301,40.71938276412271,0 -73.97442054523964,40.7221817114364,0 -73.9727661034516,40.72498135951832,0 -73.97171458704858,40.72730627912231,0 -73.97163760950531,40.72930592701889,0 -73.97304365793379,40.73074965899627,0 -73.97402790565337,40.73163466735603,0 -73.97481777616618,40.73496169419273,0 -73.97485141827096,40.73656311946918,0 -73.97361420321907,40.73827772166219,0 -73.97278435562234,40.73973408160828,0 -73.97244443665591,40.7420777979841,0 -73.97199252085483,40.74311513498501,0 -73.97003884953813,40.74554507708749,0 -73.96747682832189,40.74845781786033,0 -73.96492897775333,40.75197564922406,0 -73.96165598756558,40.75483484854861,0 -73.95926812007104,40.75788690638447,0 -73.95767805130741,40.75997420876862,0 -73.95656793716914,40.76044719978574,0 -73.95511754931181,40.76186982154372,0 -73.95296019181289,40.76386737494371,0 -73.950845285505,40.76625211169552,0 -73.94892566840709,40.76867147938725,0 -73.94709089873996,40.77079352098545,0 -73.94528724945366,40.77241597363677,0 -73.94359290369817,40.77410544848284,0 -73.94239238511804,40.77651087377542,0 -73.94331394910304,40.77861144429871,0 -73.94412638244637,40.78078334776134,0 -73.94425848154935,40.78215446209371,0 -73.94384300826277,40.78311189234988,0 -73.94259620337044,40.78419140329862,0 -73.94062410794051,40.78519377729089,0 -73.93944228692781,40.78610147880935,0 -73.93811110870456,40.7876244276821,0 -73.93737025143835,40.78949539046069,0 -73.93627947146497,40.79115176430246,0 -73.93415990854434,40.79279313577891,0 -73.93179694473616,40.79388900934088,0 -73.93002362191325,40.79508417376525,0 -73.92943278986895,40.79622926676172,0 -73.92921452666232,40.79797223321806,0 -73.92901861971789,40.79934816352343,0 -73.92967723801419,40.80167261618253,0 -73.93053372902637,40.80352469097938,0 -73.93187726226557,40.80503736196405,0 -73.93336511973034,40.80659208977842,0 -73.93455022891756,40.80820123544107,0 -73.93492477171327,40.81070622916393,0 -73.93444401629625,40.81284774531848,0 -73.93411696104116,40.81533795099465,0 -73.93400642641788,40.81703085057782,0 -73.93449025508362,40.81936811791589,0 -73.93438323869816,40.82219081673528,0 -73.93449500975304,40.82533766775077,0 -73.9347820634284,40.82813861946144,0 -73.93513579920963,40.83094735817896,0 -73.93537974228529,40.83431212063906,0 -73.93511805417403,40.83553882887986,0 -73.93288561111113,40.83942090937039,0 -73.93091312502537,40.84257683729245,0 -73.92956962480987,40.84576455785739,0 -73.92757724654082,40.84829761421524,0 -73.9269734349903,40.8498662095874,0 -73.92496707728984,40.85257875643897,0 -73.92317182284145,40.85529892524065,0 -73.92258048625949,40.85693760453597,0 -73.92286691951431,40.85874825952638,0 -73.92170513774873,40.86090182583929,0 -73.91977665659854,40.86340699669925,0 -73.91366135825855,40.8715036142424,0 -73.91923202819049,40.86813226120675,0 -73.92297938485001,40.86701717087221,0 -73.92738105022386,40.86549084704829,0 -73.92963334438527,40.8659686654618,0 -73.93123365794099,40.86682011094149,0 -73.93213671839248,40.86687226865186,0 -73.93503974289,40.86125368566346,0 -73.93526376605197,40.85998732987284,0 -73.93667511971067,40.8589995401391,0 -73.9400442931845,40.85503734950563,0 -73.94075649225516,40.85336859524013,0 -73.94280413003104,40.85101029923553,0 -73.94339828538406,40.84921308108739,0 -73.94440734465627,40.8469515419179,0 -73.94497808225221,40.84468848072574,0 -73.94523076734838,40.84297406033853,0 -73.94611789092247,40.84042640131965,0 -73.94876234824632,40.83717240187016,0 -73.94981236367639,40.83409876933993,0 -73.95121722064049,40.83065898721817,0 -73.95187984593676,40.82938480971023,0 -73.95358040949974,40.82733602194976,0 -73.95611440044678,40.82474084032521,0 -73.95827496501119,40.82196263220129,0 -73.96082370782486,40.8188376393348,0 -73.96206322208231,40.81763074044188,0 -73.9635298368846,40.81615526313799,0 -73.96547544036041,40.81311776465531,0 -73.96766078540223,40.81013058529865,0 -73.97153110902609,40.80464388213422,0 -73.97396477260401,40.80110478457767,0 -73.97508917328638,40.7993886346452,0 -73.97573302848011,40.7972446683031,0 -73.97748513887495,40.79498846422013,0 -73.97896798030305,40.79397918354649,0 -73.980237158555,40.79228025799172,0 -73.98161369386966,40.79060526664813,0 -73.98280654849441,40.78802669481431,0 -73.98358381286353,40.78591929850031,0 -73.9854555548672,40.78348600728793,0 -73.98727736923385,40.78090525425782,0 -73.99141081556414,40.77552597094176,0 -73.99439944242822,40.77161143245296,0 -73.99505121983916,40.77035462780842,0 -73.99529229325563,40.76933419407099,0 -73.99880215221609,40.7640702139057,0 -74.00017572639288,40.76280861330655,0 -74.00200667791719,40.76143109732671,0 -74.00361523757212,40.75889603140265,0 -74.00639927939223,40.75523664799006,0 -74.00714024412252,40.75397002138447,0 -74.00854743336045,40.75007391493983,0 -74.00784473458037,40.74831966090429,0 -74.00881087071797,40.74203048647693,0 -74.00937342161944,40.74009501592209,0 -74.00995935851664,40.739202476063,0 -74.00999587968265,40.73649141827131,0 -74.01050995701289,40.7316338651363,0 -74.01105855245477,40.72588827436255,0 -74.01234701123705,40.71885845481592,0 -74.01321174109817,40.71608473282797,0 -74.01411146081416,40.71237456371611,0 -74.01528544431207,40.70868402750226,0 -74.01651428738461,40.70531006511513,0 -74.01677011352589,40.70458372278524,0 -74.01593608644788,40.70220424553703,0 -74.01617896510356,40.70190314519316,0 -74.01581600307341,40.70151751072562,0 -74.01532180221187,40.70110201583168,0 -74.01518590832323,40.70100361029029,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Folder>
+			<name>Waypoints</name>
+			<open>1</open>
+			<Placemark>
+				<name>Tunnel</name>
+				<LookAt>
+					<longitude>-73.94025938700224</longitude>
+					<latitude>40.85162803570225</latitude>
+					<altitude>19.68659542289419</altitude>
+					<heading>35.70548504061693</heading>
+					<tilt>52.91807739074027</tilt>
+					<range>983.868547291548</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_subway</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-73.94304860809558,40.85034502244959,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Port</name>
+				<LookAt>
+					<longitude>-73.96173920633653</longitude>
+					<latitude>40.78037912292677</latitude>
+					<altitude>0</altitude>
+					<heading>140.2869809284587</heading>
+					<tilt>0.8826982849255325</tilt>
+					<range>17677.47698293096</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_marina</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-73.99770786902343,40.76960390993144,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>View Point</name>
+				<LookAt>
+					<longitude>-74.01348807485327</longitude>
+					<latitude>40.70118003147446</latitude>
+					<altitude>19.20380555438713</altitude>
+					<heading>49.82628824913184</heading>
+					<tilt>60.0044039846556</tilt>
+					<range>566.0949198814546</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_camera</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.01522314305457,40.70087193583847,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C. P</name>
+				<LookAt>
+					<longitude>-73.96806180675208</longitude>
+					<latitude>40.76814278536214</latitude>
+					<altitude>0</altitude>
+					<heading>54.1112443506769</heading>
+					<tilt>60.04713023735503</tilt>
+					<range>6058.17217523564</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parks</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-73.97048424424887,40.77651312614569,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Favorite</name>
+				<LookAt>
+					<longitude>-74.00388720429653</longitude>
+					<latitude>40.71271512704326</latitude>
+					<altitude>105.5864024103057</altitude>
+					<heading>54.08784663962409</heading>
+					<tilt>60.02184496309267</tilt>
+					<range>2808.011342646861</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_volcano</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-74.01339212390465,40.71152416239327,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Full Turn</name>
+				<LookAt>
+					<longitude>-73.92067270359347</longitude>
+					<latitude>40.86261755008881</latitude>
+					<altitude>0</altitude>
+					<heading>0.03458767317258652</heading>
+					<tilt>37.9745002288644</tilt>
+					<range>5850.005657577199</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-73.91620584324119,40.86829710588018,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
