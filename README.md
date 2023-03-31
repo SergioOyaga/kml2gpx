@@ -8,7 +8,6 @@ Earth, and renames them to Garmin default (or custom) icons.
 <table>
   <tr>
     <td> <b>Manhattan route in Google Earth.</b></td>
-    <td> <b>Manhattan route in Garmin Etrex Touch 35</b> </td>
   </tr>
   <tr>
     <td> <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanEarth.png"  
@@ -21,11 +20,14 @@ Earth, and renames them to Garmin default (or custom) icons.
   </tr>
   <tr>
     <td><img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin1.png"  
-         title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="300" height="400" />
+         title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="300" height="400" /></td>
+    <td>
          <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin2.png"  
-         title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="300" height="400" />
+         title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="300" height="400" /></td>
+    <td>
          <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin3.png"  
          title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="300" height="400" /></td>
+<td>
   </tr>
 </table>
 
