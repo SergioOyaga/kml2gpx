@@ -13,6 +13,13 @@ Earth, and renames them to Garmin default (or custom) icons.
   <tr>
     <td> <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanEarth.png"  
          title="Manhattan Route in Google Earth" alt="Manhattan Route in Google Earth" width="900" height="400" /></td>
+ </tr>
+</table>
+<table>
+  <tr>
+    <td> <b>Manhattan route in Garmin Etrex Touch 35</b> </td>
+  </tr>
+  <tr>
     <td><img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin1.png"  
          title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="300" height="400" />
          <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin2.png"  
@@ -56,14 +63,14 @@ default Garmin icons. The Excel file
 [IconRelation.xlsx](https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/IconRelation.xlsx) is the result
 of this effort.
     <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/IconTable.png"  
-         title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="600" />
+         title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="300" />
 
 Notice that not all Garmin icons have an equivalent in the Google Map column and vice-versa. 
 
 Also notice that there are some custom icons in that appears the same in Garmin and Google. These icons are custom-made 
 icons that my father wanted to have to better plan his routes. 
     <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/CustomIcon.png"  
-         title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="600" />
+         title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="400" />
 
 If you want, you can add these icons to your device. they are placed in 
 [/Resources/Icons](https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Icons):
@@ -78,20 +85,24 @@ To install custom icons in the Garmin device refer to: [GARMIN](https://support.
 ## Executable
 
 1. Run the kml2gpx.exe file:
+
     <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/Step1.png"  
-         title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="600" />
+         title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="400" />
 
 2. Select the IconRelation.xlsx file:
+
        <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/Step2.png"  
-            title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="600" />
+            title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="400" />
 
 3. Select the *.kml file (ManhattanRoute.kml in my case):
+
        <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/Step3.png"  
-            title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="600" />
+            title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="400" />
 
 4. You have it, three clicks, and we have converted the KML file to GPX:
+
        <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/Step4.png"  
-            title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="600" />
+            title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="400" />
 
 Now we only have to move the gpx file to our device, and we are done :smiley:
 
