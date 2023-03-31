@@ -19,13 +19,13 @@ Earth, and renames them to Garmin default (or custom) icons.
     <td> <b>Manhattan route in Garmin Etrex Touch 35</b> </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin1.png"  
+    <td><img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin1.bmp"  
          title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="300" height="400" /></td>
     <td>
-         <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin2.png"  
+         <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin2.bmp"  
          title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="300" height="400" /></td>
     <td>
-         <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin3.png"  
+         <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/ManhattanGarmin3.bmp"  
          title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="300" height="400" /></td>
 <td>
   </tr>
@@ -92,17 +92,14 @@ To install custom icons in the Garmin device refer to: [GARMIN](https://support.
          title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="400" />
 
 2. Select the IconRelation.xlsx file:
-
        <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/Step2.png"  
             title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="400" />
 
 3. Select the *.kml file (ManhattanRoute.kml in my case):
-
        <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/Step3.png"  
             title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="400" />
 
 4. You have it, three clicks, and we have converted the KML file to GPX:
-
        <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/Step4.png"  
             title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="400" />
 
