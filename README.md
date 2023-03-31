@@ -90,9 +90,11 @@ To install custom icons in the Garmin device refer to: [GARMIN](https://support.
 
 
 ## Executable
-Use the executable file is straight forward (at least in Windows):
+Use the [executable](https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/kml2gpx.exe) file is straight forward 
+(at least in Windows):
 
-1. Run the kml2gpx.exe file:
+1. Run the [kml2gpx.exe](https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/kml2gpx.exe) file (placed in 
+[/Resources/](https://github.com/SergioOyaga/KML2GPX/blob/master/Resources)):
 
     <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/Step1.png"  
          title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="400" />
