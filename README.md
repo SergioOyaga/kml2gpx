@@ -65,7 +65,7 @@ So I decided to create this program for him.
 ## The Icons
 Most of the developing time has been spent in gathering and relating the most frequently used icons from Google Earth 
 and the default Garmin icons. The Excel file 
-[IconRelation.xlsx](https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/IconRelation.xlsx) is the result
+[IconRelation.xlsx](https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/IconRelation.xlsx) is the result
 of this effort.
     <img src="https://github.com/SergioOyaga/KML2GPX/blob/master/Resources/Images/IconTable.png"  
          title="Manhattan Route in Gamin" alt="Manhattan Route in Gamin" width="600" height="300" />
